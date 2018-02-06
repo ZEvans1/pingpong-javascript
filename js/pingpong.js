@@ -2,8 +2,8 @@ function Calculator(numberOne, numberTwo, operator) {
   this.numberOne = numberOne;
   this.numberTwo = numberTwo;
   this.operator = operator;
-
 }
+
 Calculator.prototype.arithmetic = function () {
   var result;
   if (this.operator === "add") {
